@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: entrepreneur_ideas
+Bundle-SymbolicName: entrepreneur_ideas
+Bundle-Version: 1.0.0.qualifier
+Export-Package: es.upm.emse.enteridea.adapter,
+ es.upm.emse.enteridea.adapter.bean,
+ es.upm.emse.enteridea.business,
+ es.upm.emse.enteridea.persistence,
+ es.upm.emse.enteridea.persistence.dao,
+ es.upm.emse.enteridea.persistence.dao.imp,
+ es.upm.emse.enteridea.persistence.entity,
+ es.upm.emse.enteridea.persistence.exception,
+ test.es.upm.emse.enteridea.persistence.dao.imp

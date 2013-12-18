@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>List of users</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="/entrepreneur_ideas/resources/css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="/entrepreneur_ideas/resources/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="/entrepreneur_ideas/resources/css/main.css">
+
+        <script src="/entrepreneur_ideas/resources/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="/entrepreneur_ideas/resources/js/vendor/jquery-1.10.1.min.js"></script>
+        <script src="/entrepreneur_ideas/resources/js/vendor/bootstrap.min.js"></script>
+		
+		<script src="/entrepreneur_ideas/resources/js/vendor/json2.js"></script>
+		<script src="/entrepreneur_ideas/resources/js/vendor/underscore.js"></script>
+		<script src="/entrepreneur_ideas/resources/js/vendor/backbone.js"></script>
+		
+		<script src="/entrepreneur_ideas/resources/js/model.js"></script>
+        <script src="/entrepreneur_ideas/resources/js/main.js"></script>
+    </head>
+    <script>
+    EnterApp.Sync.getUserProfile({
+		success: function(response){
+			globalUserObject = response.responseObject;
+			setEnvironment();
+		},
+		error: function(response){
+			alert(response.message);
+		}
+	});
+    </script>
+    <body>
+    <div class="modal"></div>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+     <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" href="create_idea.html" onclick=""> Enter Idea </a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Idea <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="index.html">List of ideas</a></li>
+                <li><a href="create_idea.html">Create new idea</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul id="user-menu" class="nav navbar-nav">
+          </ul>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+	      <button  class="btn btn-success navbar-btn" id="logout-link" style="float:right;" >Logout</button >  
+	    </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+	<div class="container">
+		
+		<h1>Users list</h1>
+        <p>Here you can see the list of users</p>
+        
+		<!-- Example row of columns -->
+		<div>
+		  	<table id="usersTable" class="table table-bordered table-striped">
+		  		<thead>
+		  			<tr>
+		  				<th>#</th>
+		  				<th>Username</th>
+		  				<th>Name</th>
+		  				<th>Last Name</th>
+		  				<th>Email</th>
+		  			</tr>
+		  		</thead>
+		  		<tbody>
+		  		</tbody>
+		  	</table>
+		</div>
+      <hr>
+
+      <footer>
+        <p>&copy; LatinGerIran Inc. 2013</p>
+      </footer>
+     </div>
+		
+    </body>
+    <script type="text/template" id="userRowTemplate">
+		<tr>
+			<td><%= index %></td>
+			<td><%= nickname %></td>
+		  	<td><%= name %></td>
+		  	<td><%= lastname %></td>
+			<td><%= email %></td>
+		</tr>
+	</script>
+    <script>
+    	$("#logout-link").on("click",function(){
+    		EnterApp.Sync.doLogout({
+				success: function(response){
+					location.href = "login.html";
+				},
+				error: function(response){
+					alert(response.message);
+				}
+			});	
+    	});
+    	
+    	function setEnvironment(){
+    		if(globalUserObject.moderator){
+	    		$("#user-menu").append(
+	    				'<li class="dropdown">'+        
+	    	    		'<a href="#" class="dropdown-toggle" data-toggle="dropdown">Users <b class="caret"></b></a>'+          
+	    	    		'<ul class="dropdown-menu">'+          
+	    	    			'<li><a href="list_users.html">List of users</a></li>'+            
+	    	    		'</ul>'+          
+	    	    	'</li>'
+	    		);
+	    		$('body').addClass('loading');
+	    		EnterApp.Sync.loadUsers({
+	        		success: function(response){
+	        			_.each(response.responseObject, function(userProfile, index, list){
+	        				var model = {
+	    						"index": index+1, 
+	    						nickname: userProfile.nickname, 
+	    						name: userProfile.firstName, 
+	    						lastname: userProfile.lastName,
+	    						email: userProfile.email,
+	    						idUser: userProfile.userId
+	    					}
+							
+	        				var template = _.template( $("#userRowTemplate").html(), model);
+	        		        $("#usersTable tbody").append(template);	
+	    				});
+	        			$('body').removeClass('loading');
+	        		},
+	        		error: function(response){
+	        			$('body').removeClass('loading');
+	        			alert("The idea list could not be obtained");
+	        		}
+	        	});
+    		}
+    	}
+    </script>
+</html>

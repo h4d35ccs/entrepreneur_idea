@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Sign Up</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="/entrepreneur_ideas/resources/css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="/entrepreneur_ideas/resources/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="/entrepreneur_ideas/resources/css/main.css">
+
+        <script src="/entrepreneur_ideas/resources/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="/entrepreneur_ideas/resources/js/vendor/jquery-1.10.1.min.js"></script>
+        <script src="/entrepreneur_ideas/resources/js/vendor/bootstrap.min.js"></script>
+		
+		<script src="/entrepreneur_ideas/resources/js/vendor/json2.js"></script>
+		<script src="/entrepreneur_ideas/resources/js/vendor/underscore.js"></script>
+		<script src="/entrepreneur_ideas/resources/js/vendor/backbone.js"></script>
+		
+		<script src="/entrepreneur_ideas/resources/js/model.js"></script>
+        <script src="/entrepreneur_ideas/resources/js/main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Sign Up</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form name="signupform" id="signupform" action="#" method="POST" accept-charset="UTF-8" role="form">
+                            <fieldset>
+                                <div class="form-group">
+                                	<label class="control-label" >E-Mail:<span style="color: red;">*</span></label>
+                                    <input class="form-control" placeholder="Email" name="email" id="email" type="text">
+                                </div>
+                                
+                                <div class="form-group">
+                                	<label class="control-label" >First Name:<span style="color: red;">*</span></label>
+                                    <input class="form-control" placeholder="First Name" name="firstname" id="firstname" type="text" value="">
+                                </div>
+                                <div class="form-group">
+                                <label class="control-label" >Last Name:<span style="color: red;">*</span></label>
+                                    <input class="form-control" placeholder="Last Name" name="lastname" id="lastname" type="text" value="">
+                                </div>
+                                <div class="form-group">
+                                	<label class="control-label" >Username:<span style="color: red;">*</span></label>
+                                    <input class="form-control" placeholder="Username" name="username" id="username" type="text">
+                                </div>
+                                <div class="form-group"><label class="control-label" >Password:<span style="color: red;">*</span></label>
+                                    <input class="form-control" placeholder="Password" name="password" id="password" type="password" value="">
+                                </div>
+                                <div class="form-group">
+                               		 <label class="control-label" >Repeat Password:<span style="color: red;">*</span></label>
+                                    <input class="form-control" placeholder="Repeat Password" name="rpassword" id="rpassword" type="password" value="">
+                                </div>
+                                <span><p>Fields with asterisk(<span style="color: red;">*</span>) are required fields.</p></span>
+		  		
+                                <input class="btn btn-primary"  id="signup-submit" type="submit" name = "signup" value="Sign Up">
+                                <input class="btn btn-danger" id="signup-cancel" type="button" name = "cancel" value="Cancel">
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script>
+     	
+     	function validateForm(setOfInput){
+			var message = "";
+			result = true;
+			if(setOfInput.email == ""){
+				message += "Please fill the e-mail field\n";
+				result = false;
+			}
+			if(setOfInput.name == "")
+			{
+				message += "Please fill the first name field\n";
+				result = false;
+			}
+			if(setOfInput.lastname == 0)
+			{
+				message += "Please fill the last name field\n";
+				result = false;
+			}
+			if(setOfInput.username == 0)
+			{
+				message += "Please fill the user name field\n";
+				result = false;
+			}
+			if(setOfInput.password == 0)
+			{
+				message += "Please fill the password field\n";
+				result = false;
+			}
+			if(setOfInput.rpassword == 0)
+			{
+				message += "Please fill the repeat password field\n";
+				result = false;
+			}
+			if(setOfInput.password != setOfInput.rpassword)
+			{
+				message += "Password and Repeat Password must be the same\n";
+				result = false;
+			}
+			if(message){
+				alert(message);	
+			}
+			
+			return result;
+		}
+     	
+    	$("#signupform").on("submit", function(e){
+    		e.preventDefault();
+    		userInputJSON = {
+    				email: $("#email").val(),
+					name: $("#firstname").val(), 
+					lastname: $("#lastname").val(), 
+					nickname: $("#username").val(),
+					password: $("#password").val(),
+					rpassword: $("#rpassword").val()};
+			
+			if(validateForm(userInputJSON)){
+				EnterApp.Sync.saveNewUser(userInputJSON,{
+					success: function(response){
+						alert("The user was created");
+						location.href = "login.html";
+					},
+					error: function(response){
+						alert("The user could not be created");
+					}
+				});	
+			}
+			$(':input','#signupform')
+			  .not(':button, :submit, :reset, :hidden')
+			  .val('');
+		});
+    	
+    	$("#signup-cancel").on("click", function(){
+			location.href = "login.html";
+		});
+    </script>
+</body>
+</html>

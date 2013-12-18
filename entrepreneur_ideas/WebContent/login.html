@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Login</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+
+<link rel="stylesheet"
+	href="/entrepreneur_ideas/resources/css/bootstrap.min.css">
+<style>
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+</style>
+<link rel="stylesheet"
+	href="/entrepreneur_ideas/resources/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="/entrepreneur_ideas/resources/css/main.css">
+
+<script
+	src="/entrepreneur_ideas/resources/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<script
+	src="/entrepreneur_ideas/resources/js/vendor/jquery-1.10.1.min.js"></script>
+<script src="/entrepreneur_ideas/resources/js/vendor/bootstrap.min.js"></script>
+
+<script src="/entrepreneur_ideas/resources/js/vendor/json2.js"></script>
+<script src="/entrepreneur_ideas/resources/js/vendor/underscore.js"></script>
+<script src="/entrepreneur_ideas/resources/js/vendor/backbone.js"></script>
+
+<script src="/entrepreneur_ideas/resources/js/model.js"></script>
+<script src="/entrepreneur_ideas/resources/js/main.js"></script>
+</head>
+<body>
+<div class="modal"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Please sign in</h3>
+					</div>
+					<div class="panel-body">
+						<form name="frm-login" id="frm-login" action="#" method="POST"
+							accept-charset="UTF-8" role="form">
+							<fieldset>
+								<div class="form-group">
+									<label>Username :</label> <input class="form-control"
+										placeholder="Username" id="txt-username"
+										name="txt-username" type="text">
+								</div>
+								<div class="form-group">
+									<label>Password :</label> <input class="form-control"
+										placeholder="Password" id="txt-password" name="txt-password"
+										type="password" value="">
+								</div>
+								<div>
+									<div>
+										<input class="btn btn-primary" id="login-submit" type="submit"
+											value="Login"> <input id="btn-signup"
+											class="btn btn-success" type="button" value="Sign Up">
+									</div>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		$(document).ready(function(){
+			var redirectHtml = "index.html";
+			if(checkLogin()){
+				location.href = redirectHtml;
+			}else{
+			
+				$("#btn-signup").on("click", function(){
+					location.href = "signup.html";
+				});
+				
+				$("#frm-login").on("submit", function(e){
+		    		var userInputJSON={
+		    		username : $("#txt-username").val(),
+		    		password : $("#txt-password").val(),
+		    		};
+					
+		    		$("#txt-username").val("");
+		    		$("#txt-password").val("");
+		    		
+		    		if(validateForm(userInputJSON)){
+		    			//$('body').addClass('loading');
+		    			EnterApp.Sync.doLogin(userInputJSON,{
+		    				success: function(response){
+		    					location.href = redirectHtml;
+		    				},
+		    				error: function(response){
+		    					//$('body').removeClass('loading');
+		    					alert(response.message);
+		    				}
+		    			});
+		    		}	
+		    		e.preventDefault();
+				});
+			}
+		});
+		function validateForm(setOfInput){
+			var message = "";
+			result = true;
+			
+			if(setOfInput.username == 0)
+			{
+				message += "Please fill the user name field\n";
+				result = false;
+			}
+			if(setOfInput.password == 0)
+			{
+				message += "Please fill the password field\n";
+				result = false;
+			}
+			
+			if(message){
+				alert(message);	
+			}
+			
+			return result;
+		}
+		// validates if the user is logged and it's trying to access this page again
+		 function checkLogin(){
+			var logged = false;
+					 $.ajax({  
+					       type: "GET",  
+					       url: "rest/loginLogout/islogged",  
+					       dataType: "json",  
+					       async: false,
+					       success: function(response){  
+					    	   
+							    	   if(response.status=="SUCCESS"){
+							    		   
+											if(response.responseObject){
+												
+												logged = true;		
+											}
+										}
+					       },  
+					       error: function(e){  
+					        
+					       }  
+					    });
+		 
+			return logged;
+		  }
+		
+	</script>
+</body>
+</html>
