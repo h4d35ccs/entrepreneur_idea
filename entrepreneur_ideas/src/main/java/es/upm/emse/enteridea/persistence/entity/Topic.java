@@ -2,6 +2,7 @@ package es.upm.emse.enteridea.persistence.entity;
 
 import java.util.Set;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
@@ -26,7 +27,7 @@ public class Topic {
 	@Column(name = "topic_id")
 	private long topicId;
 	private String topicDescription;
-	@OneToMany(fetch = FetchType.LAZY, mappedBy = "topic")
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "topic",cascade = CascadeType.REMOVE)
 	@ElementCollection(targetClass = Idea.class)
 	private Set<Idea> ideas;
 

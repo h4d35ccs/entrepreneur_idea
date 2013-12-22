@@ -40,4 +40,16 @@ public class TopicManager {
 					e);
 		}
 	}
+	
+	public void deleteTopic(Long id) throws BusinessException{
+		GenericDAO<Topic, Long> daoTopic = new GenericDAOImp<Topic, Long>(
+				Topic.class);
+		try {
+			daoTopic.delete(id);
+		} catch (DaoOperationException e) {
+			logger.error(BusinessException.RETRIEVE_TOPIC_ERROR, e);
+			throw new BusinessException(BusinessException.CREATE_TOPIC_ERROR,
+					e);
+		}
+	}
 }

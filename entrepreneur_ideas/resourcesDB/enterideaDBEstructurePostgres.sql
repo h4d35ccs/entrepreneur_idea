@@ -119,3 +119,11 @@ ALTER TABLE Comment
 ALTER TABLE Idea
   ADD CONSTRAINT FK_4c1u1qgd821fwj0cytg4ocuf3 FOREIGN KEY (TOPIC_ID) REFERENCES Topic (topic_id),
   ADD CONSTRAINT FK_9qy4xiwsnfir4cvx0849tevxm FOREIGN KEY (USER_ID) REFERENCES UserEnteridea (user_id);
+  
+  --
+-- Volcado de datos para la tabla 'UserEnteridea'
+--
+
+INSERT INTO UserEnteridea (user_id, email, first_name, last_name, moderator, nickname, `password`) VALUES
+(1, 'shiro@apache.com', 'Security name', 'Security lastname', 0, 'shiro', '1234');
+INSERT INTO `enteridea`.`Topic` (`topic_id`, `topicDescription`) VALUES (NULL, 'firstTopic');

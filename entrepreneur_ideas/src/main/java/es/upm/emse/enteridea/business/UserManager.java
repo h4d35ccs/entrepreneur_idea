@@ -69,10 +69,10 @@ public class UserManager {
 				user = result.get(0);
 			} else {
 				logger.error(BusinessException.RETRIEVE_USER_ERROR
-						+ " because the result from the DB is null or have more than one result (have to be only one)");
+						+ " because the result from the DB is null or have more than one result (have to be only one)"+result);
 				throw new BusinessException(
 						BusinessException.RETRIEVE_USER_ERROR
-								+ " because the result from the DB is null or have more than one result (have to be only one)");
+								+ " because the result from the DB is null or have more than one result (have to be only one)"+result);
 			}
 
 		} catch (DaoOperationException e) {

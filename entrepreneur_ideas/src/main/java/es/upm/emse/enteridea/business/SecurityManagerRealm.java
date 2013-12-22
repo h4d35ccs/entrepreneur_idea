@@ -165,6 +165,7 @@ public class SecurityManagerRealm extends AuthorizingRealm {
 					"Can not authenticate user due a DB error", e);
 		} catch (Exception e) {
 			if(e instanceof UnknownAccountException){
+				logger.debug("throws:"+e);
 				throw (UnknownAccountException)e;
 			}
 			logger.error("Can not authenticate user due a general error", e);

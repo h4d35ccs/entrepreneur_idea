@@ -36,11 +36,11 @@ public class User {
 	private String password;
 	private String email;
 	@JsonManagedReference // For JSON serialization
-	@OneToMany(fetch = FetchType.LAZY, mappedBy = "ideaOwner")
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "ideaOwner", cascade = CascadeType.REMOVE)
 	@ElementCollection(targetClass = Idea.class)
 	private Set<Idea> ideas;
 	@JsonManagedReference // For JSON serialization
-	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "commentOwner")
+	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.REMOVE, mappedBy = "commentOwner")
 	@ElementCollection(targetClass = IdeaComment.class)
 	private Set<IdeaComment> comments;
 	private boolean moderator;

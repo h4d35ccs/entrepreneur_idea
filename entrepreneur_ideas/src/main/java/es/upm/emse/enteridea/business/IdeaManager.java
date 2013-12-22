@@ -2,7 +2,9 @@ package es.upm.emse.enteridea.business;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -129,6 +131,7 @@ public class IdeaManager {
 		try {
 
 			idea = daoIdea.read(new Long(idIdea));
+		
 		} catch (NumberFormatException e) {
 			logger.error("The Id is not a number.", e);
 			throw new BusinessException(BusinessException.ID_NOT_NUMBER, e);
@@ -249,6 +252,7 @@ public class IdeaManager {
 				this.deleteCommentsOfIdea(idIdea);
 
 				daoIdea.delete(new Long(idIdea));
+				logger.info("idea deleted:"+idIdea);
 
 			} catch (NumberFormatException e) {
 				logger.error("The Id is not a number.", e);
@@ -319,30 +323,45 @@ public class IdeaManager {
 
 		UserManager um = new UserManager();
 		User userDeletingComment = um.getUserByUserName(userDeleting);
+		GenericDAO<IdeaComment, Long> daoComment = new GenericDAOImp<IdeaComment, Long>(
+				IdeaComment.class);
+		Map<String, String> params = new HashMap<String, String>();
+		params.put("commentId", idComment);
 
-		// verify is the user trying to delete a moderator
-		if (userDeletingComment.isModerator() || userDeletingComment.getNickname().equals(userDeleting) ) {
+		try {
 
-			GenericDAO<IdeaComment, Long> daoComment = new GenericDAOImp<IdeaComment, Long>(
-					IdeaComment.class);
-			try {
+			List<IdeaComment> result = daoComment.getByQuery(
+					"FROM IdeaComment WHERE commentId=:commentId", params, null, 1);
 
-				daoComment.delete(new Long(idComment));
+			if (!result.isEmpty()) {
 
-			} catch (NumberFormatException e) {
-				logger.error("The Id is not a number.", e);
-				throw new BusinessException(BusinessException.ID_NOT_NUMBER, e);
+				IdeaComment comentToDelete = result.get(0);
 
-			} catch (DaoOperationException e) {
-				logger.error(DaoOperationException.DELETE_ERROR, e);
+				// verify is the user trying to delete a moderator
+				if (userDeletingComment.isModerator()
+						|| comentToDelete.getCommentOwner().getNickname()
+								.equals(userDeleting)) {
+
+					daoComment.delete(new Long(idComment));
+				} else {
+					logger.error(BusinessException.EDITING_PERMISION_ERROR);
+					throw new BusinessException(
+							BusinessException.EDITING_PERMISION_ERROR);
+				}
+
+			} else {
+				logger.error("The comment does not exit in the BD");
 				throw new BusinessException(
-						BusinessException.DELETE_COMMENT_ERROR, e);
+						"The comment does not exit in the BD");
 			}
-		} else {
-			logger.error(BusinessException.EDITING_PERMISION_ERROR);
-			throw new BusinessException(
-					BusinessException.EDITING_PERMISION_ERROR);
-		}
+		} catch (NumberFormatException e) {
+			logger.error("The Id is not a number.", e);
+			throw new BusinessException(BusinessException.ID_NOT_NUMBER, e);
 
+		} catch (DaoOperationException e) {
+			logger.error(DaoOperationException.DELETE_ERROR, e);
+			throw new BusinessException(BusinessException.DELETE_COMMENT_ERROR,
+					e);
+		}
 	}
 }

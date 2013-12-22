@@ -36,7 +36,7 @@ CREATE TABLE `Comment` (
   PRIMARY KEY (`comment_id`),
   KEY `FK_6vo7ql7d90t42g411neag5vvm` (`USER_ID`),
   KEY `FK_m072psw53630bo3ofjcme8371` (`IDEA_ID`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
@@ -76,11 +76,11 @@ CREATE TABLE `Topic` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `User`
+-- Estructura de tabla para la tabla `UserEnteridea`
 --
 
-DROP TABLE IF EXISTS `User`;
-CREATE TABLE `User` (
+DROP TABLE IF EXISTS `UserEnteridea`;
+CREATE TABLE `UserEnteridea` (
   `user_id` bigint(20) NOT NULL AUTO_INCREMENT,
   `email` varchar(255) DEFAULT NULL,
   `first_name` varchar(255) NOT NULL,
@@ -90,7 +90,7 @@ CREATE TABLE `User` (
   `password` varchar(255) NOT NULL,
   PRIMARY KEY (`user_id`),
   UNIQUE KEY `nickname` (`nickname`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=26 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1;
 
 --
 -- Estructura de tabla para la tabla `votes`
@@ -121,7 +121,7 @@ ALTER TABLE `votes`
 -- Filtros para la tabla `Comment`
 --
 ALTER TABLE `Comment`
-  ADD CONSTRAINT `FK_6vo7ql7d90t42g411neag5vvm` FOREIGN KEY (`USER_ID`) REFERENCES `User` (`user_id`),
+  ADD CONSTRAINT `FK_6vo7ql7d90t42g411neag5vvm` FOREIGN KEY (`USER_ID`) REFERENCES `UserEnteridea` (`user_id`),
   ADD CONSTRAINT `FK_m072psw53630bo3ofjcme8371` FOREIGN KEY (`IDEA_ID`) REFERENCES `Idea` (`idea_id`);
 
 --
@@ -129,4 +129,12 @@ ALTER TABLE `Comment`
 --
 ALTER TABLE `Idea`
   ADD CONSTRAINT `FK_4c1u1qgd821fwj0cytg4ocuf3` FOREIGN KEY (`TOPIC_ID`) REFERENCES `Topic` (`topic_id`),
-  ADD CONSTRAINT `FK_9qy4xiwsnfir4cvx0849tevxm` FOREIGN KEY (`USER_ID`) REFERENCES `User` (`user_id`);
+  ADD CONSTRAINT `FK_9qy4xiwsnfir4cvx0849tevxm` FOREIGN KEY (`USER_ID`) REFERENCES `UserEnteridea` (`user_id`);
+  
+  --
+-- Volcado de datos para la tabla 'UserEnteridea'
+--
+
+INSERT INTO UserEnteridea (user_id, email, first_name, last_name, moderator, nickname, `password`) VALUES
+(1, 'shiro@apache.com', 'Security name', 'Security lastname', 0, 'shiro', '1234');
+INSERT INTO `enteridea`.`Topic` (`topic_id`, `topicDescription`) VALUES (NULL, 'firstTopic');

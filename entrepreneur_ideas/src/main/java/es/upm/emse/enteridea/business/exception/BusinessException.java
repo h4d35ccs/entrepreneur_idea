@@ -7,6 +7,7 @@ public class BusinessException extends Exception {
 	public static final String RETRIEVE_IDEA_ERROR = "Failed retrieving idea";
 	public static final String UPDATE_IDEA_ERROR = "Failed updating idea";
 	public static final String CREATE_TOPIC_ERROR = "Failed creating topic";
+	public static final String DELETE_TOPIC_ERROR = "Failed deleting topic";
 	public static final String RETRIEVE_TOPIC_ERROR = "Failed retrieving topic";
 	public static final String CREATE_USER_ERROR = "Failed creating user";
 	public static final String RETRIEVE_USER_ERROR = "Failed retrieving user";
