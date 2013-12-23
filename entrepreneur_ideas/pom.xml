@@ -179,7 +179,7 @@
 				<version>2.9</version>
 				<configuration>
 					<noqualifier>all</noqualifier>
-					<reportOutputDirectory>/var/www/html</reportOutputDirectory>
+					<reportOutputDirectory>/var/www/html/entrepreneur_ideas</reportOutputDirectory>
 					<destDir>api</destDir>
 				</configuration>
 			</plugin>
