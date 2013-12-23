@@ -6,7 +6,12 @@ import static org.junit.Assert.fail;
 import java.util.Date;
 import java.util.List;
 
+
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -14,6 +19,7 @@ import es.upm.emse.enteridea.business.IdeaManager;
 import es.upm.emse.enteridea.business.TopicManager;
 import es.upm.emse.enteridea.business.UserManager;
 import es.upm.emse.enteridea.business.exception.BusinessException;
+import es.upm.emse.enteridea.persistence.PersistenceManager;
 import es.upm.emse.enteridea.persistence.entity.Idea;
 import es.upm.emse.enteridea.persistence.entity.IdeaComment;
 
@@ -57,6 +63,19 @@ public class IdeaManagerTest {
 		ideaManager = null;
 		topicManager = null;
 		userManager = null;
+	}
+	@AfterClass
+	public static void cleanDB(){
+		try {
+			Session session = PersistenceManager.getSessionFactory().openSession();
+			Transaction tx = session.beginTransaction();
+			session.createQuery("DELETE FROM User WHERE lastName ='"+TEST_USER_LAST_NAME+"'").executeUpdate();
+			session.createQuery("DELETE FROM Topic WHERE topicDescription ='"+TEST_TOPIC_NAME+"'").executeUpdate();
+			tx.commit();
+		} catch (HibernateException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	@Test

@@ -7,8 +7,14 @@ import java.util.Map;
 
 import junit.framework.TestCase;
 
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+import org.junit.AfterClass;
 import org.junit.Test;
 
+import es.upm.emse.enteridea.business.exception.BusinessException;
+import es.upm.emse.enteridea.persistence.PersistenceManager;
 import es.upm.emse.enteridea.persistence.dao.GenericDAO;
 import es.upm.emse.enteridea.persistence.dao.imp.GenericDAOImp;
 import es.upm.emse.enteridea.persistence.entity.Idea;
@@ -37,7 +43,7 @@ public class GenericDAOImpTest extends TestCase {
 	private GenericDAO<Topic, Long> daoTopic;
 	private GenericDAO<IdeaComment, Long> daoComment;
 	private GenericDAO<Vote, Long> daoVote;
-
+	private static final String NICKNAME = "nickname " + new Date().getTime();
 	/**
 	 * Construct new test instance
 	 * 
@@ -77,12 +83,28 @@ public class GenericDAOImpTest extends TestCase {
 		this.daoIdea = null;
 		this.daoTopic = null;
 		this.daoUser = null;
+		
+	}
+	
+	@AfterClass
+	public static void cleanDB(){
+		try {
+			Session session = PersistenceManager.getSessionFactory().openSession();
+			Transaction tx = session.beginTransaction();
+			System.out.println();
+			session.createQuery("DELETE FROM User WHERE nickname ='"+NICKNAME+"'").executeUpdate();
+			session.createQuery("DELETE FROM Topic WHERE topicDescription ='descripcion del topico'").executeUpdate();
+			tx.commit();
+		} catch (HibernateException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	@Test
 	public void testCreateIdea() {
-		String nickname = "nickname " + new Date().getTime();
-		User user = new User("test name", "test lastname", nickname, "1234",
+		
+		User user = new User("test name", "test lastname", NICKNAME, "1234",
 				"test@test.com", null, null);
 		Topic topic = new Topic();
 		topic.setTopicDescription("descripcion del topico");
@@ -101,10 +123,8 @@ public class GenericDAOImpTest extends TestCase {
 			fail(e.getMessage());
 		} finally {
 			try {
-				this.daoUser.delete(user.getUserId());
-				this.daoIdea.delete(idea.getIdeaiId());
-				this.daoTopic.delete(topic.getTopicId());
-			} catch (DaoOperationException e) {
+				cleanDB();
+			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
@@ -419,6 +439,27 @@ public class GenericDAOImpTest extends TestCase {
 		}
 
 	}
+	
+	private User getUserByUserName(String username) throws DaoOperationException  {
+
+		GenericDAO<User, Long> daoUser = new GenericDAOImp<User, Long>(
+				User.class);
+
+		String hqlQuery = "FROM User u WHERE nickname = :username";
+		Map<String, String> params = new HashMap<String, String>();
+		params.put("username", username);
+		User user = null;
+		
+			List<User> result = daoUser.getByQuery(hqlQuery, params, null, 1);
+
+			if (result != null && result.size() == 1) {
+				user = result.get(0);
+			} 
+	
+		return user;
+	}
+	
+	
 }
 
 /*

@@ -39,7 +39,7 @@ CREATE TABLE Comment (
 -- Estructura de tabla para la tabla Idea
 --
 
-DROP TABLE IF EXISTS Idea;
+DROP TABLE IF EXISTS Idea cascade;
 CREATE TABLE Idea (
   idea_id SERIAL PRIMARY KEY,
   creation_date timestamp NOT NULL,
@@ -70,7 +70,7 @@ CREATE TABLE Topic (
 -- Estructura de tabla para la tabla User
 --
 
-DROP TABLE IF EXISTS UserEnteridea;
+DROP TABLE IF EXISTS UserEnteridea cascade;
 create table UserEnteridea (
    user_id serial PRIMARY KEY,
   email varchar(255) DEFAULT NULL,
@@ -102,7 +102,7 @@ CREATE TABLE votes (
 -- Filtros para la tabla votes
 --
 ALTER TABLE votes
-  ADD CONSTRAINT fk_idea_vote FOREIGN KEY (idea_id) REFERENCES Idea (idea_id);
+  ADD CONSTRAINT fk_idea_vote FOREIGN KEY (idea_id) REFERENCES Idea (idea_id)ON DELETE CASCADE;
 --
 --
 
@@ -110,15 +110,15 @@ ALTER TABLE votes
 -- Filtros para la tabla Comment
 --
 ALTER TABLE Comment
-  ADD CONSTRAINT FK_6vo7ql7d90t42g411neag5vvm FOREIGN KEY (USER_ID) REFERENCES UserEnteridea (user_id),
-  ADD CONSTRAINT FK_m072psw53630bo3ofjcme8371 FOREIGN KEY (IDEA_ID) REFERENCES Idea (idea_id);
+  ADD CONSTRAINT FK_6vo7ql7d90t42g411neag5vvm FOREIGN KEY (USER_ID) REFERENCES UserEnteridea (user_id)ON DELETE CASCADE,
+  ADD CONSTRAINT FK_m072psw53630bo3ofjcme8371 FOREIGN KEY (IDEA_ID) REFERENCES Idea (idea_id)ON DELETE CASCADE;
 
 --
 -- Filtros para la tabla Idea
 --
 ALTER TABLE Idea
-  ADD CONSTRAINT FK_4c1u1qgd821fwj0cytg4ocuf3 FOREIGN KEY (TOPIC_ID) REFERENCES Topic (topic_id),
-  ADD CONSTRAINT FK_9qy4xiwsnfir4cvx0849tevxm FOREIGN KEY (USER_ID) REFERENCES UserEnteridea (user_id);
+  ADD CONSTRAINT FK_4c1u1qgd821fwj0cytg4ocuf3 FOREIGN KEY (TOPIC_ID) REFERENCES Topic (topic_id)ON DELETE CASCADE,
+  ADD CONSTRAINT FK_9qy4xiwsnfir4cvx0849tevxm FOREIGN KEY (USER_ID) REFERENCES UserEnteridea (user_id)ON DELETE CASCADE;
   
   --
 -- Volcado de datos para la tabla 'UserEnteridea'
