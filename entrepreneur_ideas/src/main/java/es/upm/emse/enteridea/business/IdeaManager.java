@@ -325,17 +325,17 @@ public class IdeaManager {
 		User userDeletingComment = um.getUserByUserName(userDeleting);
 		GenericDAO<IdeaComment, Long> daoComment = new GenericDAOImp<IdeaComment, Long>(
 				IdeaComment.class);
-		Map<String, String> params = new HashMap<String, String>();
-		params.put("commentId", idComment);
+		Map<String, Long> params = new HashMap<String, Long>();
+		params.put("commentId", new Long(idComment));
 
 		try {
 
-			List<IdeaComment> result = daoComment.getByQuery(
-					"FROM IdeaComment WHERE commentId=:commentId", params, null, 1);
-
-			if (!result.isEmpty()) {
-
-				IdeaComment comentToDelete = result.get(0);
+//			List<IdeaComment> result = daoComment.getByQuery(
+//					"FROM IdeaComment WHERE commentId=:commentId", params, null, 1);
+			IdeaComment comentToDelete = daoComment.read(new Long(idComment));
+//			if (!result.isEmpty()) {
+			if(comentToDelete != null){
+//				IdeaComment comentToDelete = result.get(0);
 
 				// verify is the user trying to delete a moderator
 				if (userDeletingComment.isModerator()

@@ -31,7 +31,7 @@ import javax.persistence.Transient;
 public class Idea {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)  
 	@Column(name = "idea_id")
 	private long ideaiId;
 	private String title;

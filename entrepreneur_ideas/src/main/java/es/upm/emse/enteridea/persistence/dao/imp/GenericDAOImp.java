@@ -273,6 +273,7 @@ public class GenericDAOImp<T extends Object, PK extends Serializable>
 	 * @throws DaoOperationException
 	 *             if can't save, update or open the connection
 	 */
+	@SuppressWarnings("unchecked")
 	private void executeSaveUpdate(T t, int operation)
 			throws DaoOperationException {
 		this.init();
@@ -286,7 +287,7 @@ public class GenericDAOImp<T extends Object, PK extends Serializable>
 
 			case SAVE:
 				logger.debug("executing save");
-				this.session.save(t);
+				t = (T) this.session.save(t);
 				break;
 			default:
 				logger.error("the option have to be either UPDATE(0) or SAVE(1), received: "

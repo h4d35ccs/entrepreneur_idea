@@ -124,6 +124,7 @@ ALTER TABLE Idea
 -- Volcado de datos para la tabla 'UserEnteridea'
 --
 
-INSERT INTO UserEnteridea (user_id, email, first_name, last_name, moderator, nickname, `password`) VALUES
-(1, 'shiro@apache.com', 'Security name', 'Security lastname', 0, 'shiro', '1234');
-INSERT INTO `enteridea`.`Topic` (`topic_id`, `topicDescription`) VALUES (NULL, 'firstTopic');
+
+INSERT INTO UserEnteridea (user_id, email, first_name, last_name, moderator, nickname, password) VALUES
+(1, 'shiro@apache.com', 'Security name', 'Security lastname', false, 'shiro', '1234');
+INSERT INTO Topic (topic_id,topicDescription) VALUES (1,'firstTopic');

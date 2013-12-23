@@ -24,7 +24,7 @@ import javax.persistence.Table;
 public class Vote {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)  
 	@Column(name = "vote_id")
 	private Long voteId;
 	@Column(name = "vote_type", columnDefinition = "enum('positive','negative','neutral')")

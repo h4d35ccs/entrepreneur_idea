@@ -23,7 +23,7 @@ import javax.persistence.Table;
  */
 public class Topic {
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)  
 	@Column(name = "topic_id")
 	private long topicId;
 	private String topicDescription;

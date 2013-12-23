@@ -304,7 +304,7 @@ public class GenericDAOImpTest extends TestCase {
 	public void testDeleteIdea() {
 		try {
 			User user = daoUser.read((long) 1);
-			Topic topic = daoTopic.read((long) 2);
+			Topic topic = daoTopic.read((long) 1);
 			Idea idea = new Idea();
 			idea.setCreationDate(new Date());
 			idea.setIdeaComments(null);
@@ -371,7 +371,7 @@ public class GenericDAOImpTest extends TestCase {
 		Idea idea = new Idea();
 		try {
 			User user = daoUser.read((long) 1);
-			Topic topic = daoTopic.read((long) 2);
+			Topic topic = daoTopic.read((long) 1);
 
 			idea.setCreationDate(new Date());
 			idea.setIdeaComments(null);

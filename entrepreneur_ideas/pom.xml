@@ -117,7 +117,7 @@
                 <configuration>
 					<url>http://localhost:8080/manager/text</url>
 					<server>TomcatServer</server>
-					<path>/entreprenur_ideas</path>
+					<path>/entrepreneur_ideas</path>
 					<username>admin</username>
 					<password>tomcat</password>
 				</configuration>
@@ -179,9 +179,7 @@
 				<version>2.9</version>
 				<configuration>
 					<noqualifier>all</noqualifier>
-					<reportOutputDirectory>
-						/Applications/MAMP/htdocs/entreprenur_ideas
-					</reportOutputDirectory>
+					<reportOutputDirectory>/var/www/html</reportOutputDirectory>
 					<destDir>api</destDir>
 				</configuration>
 			</plugin>
