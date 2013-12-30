@@ -97,9 +97,10 @@ public class GenericDAOImpTest  {
 		try {
 			Session session = PersistenceManager.getSessionFactory().openSession();
 			Transaction tx = session.beginTransaction();
-			System.out.println();
+			System.out.println("deletting");
 			session.createQuery("DELETE FROM User WHERE nickname ='"+NICKNAME+"'").executeUpdate();
 			session.createQuery("DELETE FROM Topic WHERE topicDescription ='descripcion del topico'").executeUpdate();
+			session.createQuery("DELETE FROM User WHERE email ='test@test.com'");
 			tx.commit();
 		} catch (HibernateException e) {
 			// TODO Auto-generated catch block

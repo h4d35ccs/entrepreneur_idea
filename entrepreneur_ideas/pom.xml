@@ -183,6 +183,25 @@
 					<destDir>api</destDir>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.2.1</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>java</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<mainClass>es.upm.emse.enteridea.documentationmaker.JavasphinxMaker</mainClass>
+					<arguments>
+						<argument>./sphinxdoc/create_dev_doc.sh</argument>
+						<argument>./sphinxdoc/publishDocs.sh /var/www/html/entrepreneur_ideas/sphinx </argument>
+					</arguments>
+				</configuration>
+			</plugin>
     </plugins>
   </build>
 </project>

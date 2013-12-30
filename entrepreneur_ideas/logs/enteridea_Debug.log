@@ -27784,3 +27784,1242 @@ DEBUG | 23/Dec/2013 13:42:11,788 | GenericDAOImp.java:289 |executing save
 DEBUG | 23/Dec/2013 13:42:11,842 | GenericDAOImp.java:289 |executing save
  INFO | 23/Dec/2013 13:42:11,852 | GenericDAOImp.java:61 |object saved
 DEBUG | 23/Dec/2013 13:42:11,920 | GenericDAOImp.java:205 |Total records: 0
+DEBUG | 23/Dec/2013 13:45:39,950 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:40,205 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:40,737 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:40,748 | GenericDAOImp.java:61 |object saved
+ERROR | 23/Dec/2013 13:45:40,753 | SecurityManagerRealm.java:157 |No match found in the DB for user: shirowrong
+DEBUG | 23/Dec/2013 13:45:40,756 | SecurityManagerRealm.java:168 |throws:org.apache.shiro.authc.UnknownAccountException: No match found in the DB for user: shirowrong
+DEBUG | 23/Dec/2013 13:45:40,782 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:40,790 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:40,875 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:40,907 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:41,005 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:41,015 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:41,042 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:41,056 | GenericDAOImp.java:61 |object saved
+ERROR | 23/Dec/2013 13:45:41,099 | UserManager.java:71 |Failed retrieving user because the result from the DB is null or have more than one result (have to be only one)[]
+DEBUG | 23/Dec/2013 13:45:41,159 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:41,198 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:41,254 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:41,274 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:41,287 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:41,306 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:41,350 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:41,373 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:41,429 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:41,440 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:41,467 | IdeaManager.java:240 |user trying to delete:___mctesty___1387802741135_GET_
+ INFO | 23/Dec/2013 13:45:41,523 | IdeaManager.java:255 |idea deleted:97
+DEBUG | 23/Dec/2013 13:45:41,596 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:41,664 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:41,669 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:41,722 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:41,727 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:41,781 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:41,814 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:41,864 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:41,921 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:41,931 | GenericDAOImp.java:61 |object saved
+ERROR | 23/Dec/2013 13:45:41,953 | UserManager.java:71 |Failed retrieving user because the result from the DB is null or have more than one result (have to be only one)[]
+DEBUG | 23/Dec/2013 13:45:42,010 | IdeaManager.java:240 |user trying to delete:___mctesty___1387802741135_COMMENT_DELETE_
+ INFO | 23/Dec/2013 13:45:42,039 | IdeaManager.java:255 |idea deleted:98
+DEBUG | 23/Dec/2013 13:45:42,107 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:42,122 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:42,129 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:42,147 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:42,182 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:42,188 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:42,245 | IdeaManager.java:240 |user trying to delete:___mctesty___1387802741135_CREATE_
+ INFO | 23/Dec/2013 13:45:42,322 | IdeaManager.java:255 |idea deleted:99
+DEBUG | 23/Dec/2013 13:45:42,419 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:42,463 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:42,470 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:42,497 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:42,530 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:42,555 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:42,619 | IdeaManager.java:240 |user trying to delete:___mctesty___1387802741135_LIST_
+ INFO | 23/Dec/2013 13:45:42,647 | IdeaManager.java:255 |idea deleted:100
+DEBUG | 23/Dec/2013 13:45:42,690 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:42,705 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:42,709 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:42,721 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:42,769 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:42,781 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:42,815 | IdeaManager.java:90 |editing user:___mctesty___1387802741135_EDIT_
+DEBUG | 23/Dec/2013 13:45:42,819 | GenericDAOImp.java:284 |executing update
+ INFO | 23/Dec/2013 13:45:42,871 | GenericDAOImp.java:105 |object Updated
+DEBUG | 23/Dec/2013 13:45:42,899 | IdeaManager.java:240 |user trying to delete:___mctesty___1387802741135_EDIT_
+ INFO | 23/Dec/2013 13:45:42,933 | IdeaManager.java:255 |idea deleted:101
+DEBUG | 23/Dec/2013 13:45:42,989 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:43,010 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:43,024 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:43,038 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:43,043 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:43,054 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:43,099 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:43,113 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:43,173 | IdeaManager.java:240 |user trying to delete:___mctesty___1387802741135_DELETE_UNAUTHORIZED_
+ERROR | 23/Dec/2013 13:45:43,186 | IdeaManager.java:267 |The user that is trying to edit is not the owner of the object or is not a moderator
+DEBUG | 23/Dec/2013 13:45:43,232 | IdeaManager.java:240 |user trying to delete:___mctesty___1387802741135_DELETE_
+ INFO | 23/Dec/2013 13:45:43,262 | IdeaManager.java:255 |idea deleted:102
+DEBUG | 23/Dec/2013 13:45:43,371 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:43,379 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:43,383 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:43,396 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:43,400 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:43,421 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:43,455 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:43,462 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:43,506 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:43,512 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:43,545 | IdeaManager.java:240 |user trying to delete:___mctesty___1387802741135_ADD_
+ INFO | 23/Dec/2013 13:45:43,596 | IdeaManager.java:255 |idea deleted:103
+DEBUG | 23/Dec/2013 13:45:46,613 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:46,684 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:46,850 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:46,933 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:46,989 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:47,000 | GenericDAOImp.java:61 |object saved
+ERROR | 23/Dec/2013 13:45:47,012 | SecurityManagerRealm.java:157 |No match found in the DB for user: shiroTestnotexist
+DEBUG | 23/Dec/2013 13:45:47,023 | SecurityManagerRealm.java:168 |throws:org.apache.shiro.authc.UnknownAccountException: No match found in the DB for user: shiroTestnotexist
+DEBUG | 23/Dec/2013 13:45:47,213 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:47,233 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:47,268 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:47,275 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:47,334 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:47,341 | GenericDAOImp.java:61 |object saved
+ERROR | 23/Dec/2013 13:45:47,360 | UserManager.java:71 |Failed retrieving user because the result from the DB is null or have more than one result (have to be only one)[]
+DEBUG | 23/Dec/2013 13:45:47,460 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:47,558 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:47,575 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:47,583 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:47,675 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:47,694 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:47,765 | IdeaManager.java:240 |user trying to delete:___mctesty___1387802747396_CREATE_
+ INFO | 23/Dec/2013 13:45:47,824 | IdeaManager.java:255 |idea deleted:104
+DEBUG | 23/Dec/2013 13:45:47,871 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:47,882 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:47,887 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:47,900 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:47,932 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:47,949 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:48,017 | IdeaManager.java:240 |user trying to delete:___mctesty___1387802747396_LIST_
+ INFO | 23/Dec/2013 13:45:48,082 | IdeaManager.java:255 |idea deleted:105
+DEBUG | 23/Dec/2013 13:45:48,119 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:48,132 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:48,136 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:48,149 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:48,172 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:48,182 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:48,226 | IdeaManager.java:90 |editing user:___mctesty___1387802747396_EDIT_
+DEBUG | 23/Dec/2013 13:45:48,230 | GenericDAOImp.java:284 |executing update
+ INFO | 23/Dec/2013 13:45:48,240 | GenericDAOImp.java:105 |object Updated
+DEBUG | 23/Dec/2013 13:45:48,252 | IdeaManager.java:240 |user trying to delete:___mctesty___1387802747396_EDIT_
+ INFO | 23/Dec/2013 13:45:48,274 | IdeaManager.java:255 |idea deleted:106
+DEBUG | 23/Dec/2013 13:45:48,313 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:48,324 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:48,329 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:48,349 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:48,380 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:48,399 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:48,452 | IdeaManager.java:240 |user trying to delete:___mctesty___1387802747396_DELETE_
+ INFO | 23/Dec/2013 13:45:48,473 | IdeaManager.java:255 |idea deleted:107
+DEBUG | 23/Dec/2013 13:45:48,562 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:48,582 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:48,593 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:48,607 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:48,611 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:48,623 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:48,648 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:48,656 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:48,744 | IdeaManager.java:240 |user trying to delete:___mctesty___1387802747396_DELETE_UNAUTHORIZED_
+ERROR | 23/Dec/2013 13:45:48,748 | IdeaManager.java:267 |The user that is trying to edit is not the owner of the object or is not a moderator
+DEBUG | 23/Dec/2013 13:45:48,786 | IdeaManager.java:240 |user trying to delete:___mctesty___1387802747396_DELETE_
+ INFO | 23/Dec/2013 13:45:48,815 | IdeaManager.java:255 |idea deleted:108
+DEBUG | 23/Dec/2013 13:45:48,870 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:48,881 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:48,886 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:48,898 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:48,906 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:48,915 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:48,937 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:48,948 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:49,020 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:49,031 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:49,132 | IdeaManager.java:240 |user trying to delete:___mctesty___1387802747396_ADD_
+ INFO | 23/Dec/2013 13:45:49,164 | IdeaManager.java:255 |idea deleted:109
+DEBUG | 23/Dec/2013 13:45:49,209 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:49,223 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:49,226 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:49,239 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:49,243 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:49,256 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:49,290 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:49,306 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:49,342 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:49,356 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:49,403 | IdeaManager.java:240 |user trying to delete:___mctesty___1387802747396_GET_
+ INFO | 23/Dec/2013 13:45:49,450 | IdeaManager.java:255 |idea deleted:110
+DEBUG | 23/Dec/2013 13:45:49,569 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:49,581 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:49,585 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:49,597 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:49,633 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:49,639 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:49,689 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:49,706 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:49,758 | IdeaManager.java:240 |user trying to delete:___mctesty___1387802747396_COMMENT_DELETE_
+ INFO | 23/Dec/2013 13:45:49,785 | IdeaManager.java:255 |idea deleted:111
+DEBUG | 23/Dec/2013 13:45:49,817 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:49,822 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:49,826 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:49,839 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:49,865 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:49,872 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:49,905 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:49,922 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:49,951 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:49,972 | GenericDAOImp.java:61 |object saved
+ERROR | 23/Dec/2013 13:45:49,989 | IdeaManager.java:347 |The user that is trying to edit is not the owner of the object or is not a moderator
+DEBUG | 23/Dec/2013 13:45:50,028 | IdeaManager.java:240 |user trying to delete:___mctesty___1387802747396_AUTHOR_1387802749815
+ INFO | 23/Dec/2013 13:45:50,063 | IdeaManager.java:255 |idea deleted:112
+DEBUG | 23/Dec/2013 13:45:50,168 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:50,188 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:50,190 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:50,205 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:50,206 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:50,213 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:50,223 | DTOFactory.java:76 |DTO Created IDEA[0, title: null, topic: null, description: null, Creation date: null, Modification date: null,  votes: , owner : null null null null, comments : ]  
+DEBUG | 23/Dec/2013 13:45:50,225 | DTOFactory.java:78 |fields: 12
+DEBUG | 23/Dec/2013 13:45:50,247 | DTOFactory.java:132 |annotation found:@es.upm.emse.enteridea.annotation.dtoannotation.DTOMapping(getValueFrom=ideaiId, generateListOf=class java.lang.Object, listSetterClass=interface java.util.List, getSecondValueFrom=)
+DEBUG | 23/Dec/2013 13:45:50,249 | DTOFactory.java:182 |mapping 1 on 1  mapping
+DEBUG | 23/Dec/2013 13:45:50,253 | DTOFactory.java:446 |method name:getIdeaiId
+DEBUG | 23/Dec/2013 13:45:50,257 | DTOFactory.java:257 |method to execute: getIdeaiId Entity: IDEA[113, title: this is the tittle, topic: Topic[96, description: descripcion del topico] , Creation date: Mon Dec 23 13:45:50 CET 2013, Modification date: Mon Dec 23 13:45:50 CET 2013,  votes: null, owner : User[184, name: test name, lastname: test lastname, nickname: nickname 1387802750168, password: 1234, email: test@test.com] , comments : null]   Entity class: class es.upm.emse.enteridea.persistence.entity.Idea
+DEBUG | 23/Dec/2013 13:45:50,263 | DTOFactory.java:186 |Obtained value from getter method: 113
+DEBUG | 23/Dec/2013 13:45:50,271 | DTOFactory.java:446 |method name:setIdeaiId
+DEBUG | 23/Dec/2013 13:45:50,275 | DTOFactory.java:340 |method to execute: setIdeaiId Value 113 DTO: IDEA[0, title: null, topic: null, description: null, Creation date: null, Modification date: null,  votes: , owner : null null null null, comments : ]  
+DEBUG | 23/Dec/2013 13:45:50,280 | DTOFactory.java:132 |annotation found:@es.upm.emse.enteridea.annotation.dtoannotation.DTOMapping(getValueFrom=title, generateListOf=class java.lang.Object, listSetterClass=interface java.util.List, getSecondValueFrom=)
+DEBUG | 23/Dec/2013 13:45:50,281 | DTOFactory.java:182 |mapping 1 on 1  mapping
+DEBUG | 23/Dec/2013 13:45:50,282 | DTOFactory.java:446 |method name:getTitle
+DEBUG | 23/Dec/2013 13:45:50,284 | DTOFactory.java:257 |method to execute: getTitle Entity: IDEA[113, title: this is the tittle, topic: Topic[96, description: descripcion del topico] , Creation date: Mon Dec 23 13:45:50 CET 2013, Modification date: Mon Dec 23 13:45:50 CET 2013,  votes: null, owner : User[184, name: test name, lastname: test lastname, nickname: nickname 1387802750168, password: 1234, email: test@test.com] , comments : null]   Entity class: class es.upm.emse.enteridea.persistence.entity.Idea
+DEBUG | 23/Dec/2013 13:45:50,294 | DTOFactory.java:186 |Obtained value from getter method: this is the tittle
+DEBUG | 23/Dec/2013 13:45:50,297 | DTOFactory.java:446 |method name:setTitle
+DEBUG | 23/Dec/2013 13:45:50,300 | DTOFactory.java:340 |method to execute: setTitle Value this is the tittle DTO: IDEA[113, title: null, topic: null, description: null, Creation date: null, Modification date: null,  votes: , owner : null null null null, comments : ]  
+DEBUG | 23/Dec/2013 13:45:50,303 | DTOFactory.java:132 |annotation found:@es.upm.emse.enteridea.annotation.dtoannotation.DTOMapping(getValueFrom=description, generateListOf=class java.lang.Object, listSetterClass=interface java.util.List, getSecondValueFrom=)
+DEBUG | 23/Dec/2013 13:45:50,306 | DTOFactory.java:182 |mapping 1 on 1  mapping
+DEBUG | 23/Dec/2013 13:45:50,309 | DTOFactory.java:446 |method name:getDescription
+DEBUG | 23/Dec/2013 13:45:50,312 | DTOFactory.java:257 |method to execute: getDescription Entity: IDEA[113, title: this is the tittle, topic: Topic[96, description: descripcion del topico] , Creation date: Mon Dec 23 13:45:50 CET 2013, Modification date: Mon Dec 23 13:45:50 CET 2013,  votes: null, owner : User[184, name: test name, lastname: test lastname, nickname: nickname 1387802750168, password: 1234, email: test@test.com] , comments : null]   Entity class: class es.upm.emse.enteridea.persistence.entity.Idea
+DEBUG | 23/Dec/2013 13:45:50,313 | DTOFactory.java:186 |Obtained value from getter method: description
+DEBUG | 23/Dec/2013 13:45:50,320 | DTOFactory.java:446 |method name:setDescription
+DEBUG | 23/Dec/2013 13:45:50,321 | DTOFactory.java:340 |method to execute: setDescription Value description DTO: IDEA[113, title: this is the tittle, topic: null, description: null, Creation date: null, Modification date: null,  votes: , owner : null null null null, comments : ]  
+DEBUG | 23/Dec/2013 13:45:50,323 | DTOFactory.java:132 |annotation found:@es.upm.emse.enteridea.annotation.dtoannotation.DTOMapping(getValueFrom=topic, generateListOf=class java.lang.Object, listSetterClass=interface java.util.List, getSecondValueFrom=topicDescription)
+DEBUG | 23/Dec/2013 13:45:50,324 | DTOFactory.java:196 |mapping other references mapping
+DEBUG | 23/Dec/2013 13:45:50,329 | DTOFactory.java:446 |method name:getTopic
+DEBUG | 23/Dec/2013 13:45:50,331 | DTOFactory.java:257 |method to execute: getTopic Entity: IDEA[113, title: this is the tittle, topic: Topic[96, description: descripcion del topico] , Creation date: Mon Dec 23 13:45:50 CET 2013, Modification date: Mon Dec 23 13:45:50 CET 2013,  votes: null, owner : User[184, name: test name, lastname: test lastname, nickname: nickname 1387802750168, password: 1234, email: test@test.com] , comments : null]   Entity class: class es.upm.emse.enteridea.persistence.entity.Idea
+DEBUG | 23/Dec/2013 13:45:50,332 | DTOFactory.java:202 |Obtained first value from getter method: Topic[96, description: descripcion del topico] 
+DEBUG | 23/Dec/2013 13:45:50,333 | DTOFactory.java:446 |method name:getTopicDescription
+DEBUG | 23/Dec/2013 13:45:50,334 | DTOFactory.java:257 |method to execute: getTopicDescription Entity: Topic[96, description: descripcion del topico]  Entity class: class es.upm.emse.enteridea.persistence.entity.Topic
+DEBUG | 23/Dec/2013 13:45:50,336 | DTOFactory.java:209 |Obtained second value from getter method: descripcion del topico
+DEBUG | 23/Dec/2013 13:45:50,337 | DTOFactory.java:446 |method name:setTopicDescription
+DEBUG | 23/Dec/2013 13:45:50,338 | DTOFactory.java:340 |method to execute: setTopicDescription Value descripcion del topico DTO: IDEA[113, title: this is the tittle, topic: null, description: description, Creation date: null, Modification date: null,  votes: , owner : null null null null, comments : ]  
+DEBUG | 23/Dec/2013 13:45:50,341 | DTOFactory.java:132 |annotation found:@es.upm.emse.enteridea.annotation.dtoannotation.DTOMapping(getValueFrom=ideaComments, generateListOf=class es.upm.emse.enteridea.adapter.dto.IdeaCommentDTO, listSetterClass=interface java.util.List, getSecondValueFrom=)
+DEBUG | 23/Dec/2013 13:45:50,342 | DTOFactory.java:137 |mapping list mapping
+DEBUG | 23/Dec/2013 13:45:50,343 | DTOFactory.java:446 |method name:getIdeaComments
+DEBUG | 23/Dec/2013 13:45:50,344 | DTOFactory.java:257 |method to execute: getIdeaComments Entity: IDEA[113, title: this is the tittle, topic: Topic[96, description: descripcion del topico] , Creation date: Mon Dec 23 13:45:50 CET 2013, Modification date: Mon Dec 23 13:45:50 CET 2013,  votes: null, owner : User[184, name: test name, lastname: test lastname, nickname: nickname 1387802750168, password: 1234, email: test@test.com] , comments : null]   Entity class: class es.upm.emse.enteridea.persistence.entity.Idea
+DEBUG | 23/Dec/2013 13:45:50,346 | DTOFactory.java:132 |annotation found:@es.upm.emse.enteridea.annotation.dtoannotation.DTOMapping(getValueFrom=ideaOwner, generateListOf=class java.lang.Object, listSetterClass=interface java.util.List, getSecondValueFrom=firstName)
+DEBUG | 23/Dec/2013 13:45:50,347 | DTOFactory.java:196 |mapping other references mapping
+DEBUG | 23/Dec/2013 13:45:50,349 | DTOFactory.java:446 |method name:getIdeaOwner
+DEBUG | 23/Dec/2013 13:45:50,350 | DTOFactory.java:257 |method to execute: getIdeaOwner Entity: IDEA[113, title: this is the tittle, topic: Topic[96, description: descripcion del topico] , Creation date: Mon Dec 23 13:45:50 CET 2013, Modification date: Mon Dec 23 13:45:50 CET 2013,  votes: null, owner : User[184, name: test name, lastname: test lastname, nickname: nickname 1387802750168, password: 1234, email: test@test.com] , comments : null]   Entity class: class es.upm.emse.enteridea.persistence.entity.Idea
+DEBUG | 23/Dec/2013 13:45:50,351 | DTOFactory.java:202 |Obtained first value from getter method: User[184, name: test name, lastname: test lastname, nickname: nickname 1387802750168, password: 1234, email: test@test.com] 
+DEBUG | 23/Dec/2013 13:45:50,352 | DTOFactory.java:446 |method name:getFirstName
+DEBUG | 23/Dec/2013 13:45:50,353 | DTOFactory.java:257 |method to execute: getFirstName Entity: User[184, name: test name, lastname: test lastname, nickname: nickname 1387802750168, password: 1234, email: test@test.com]  Entity class: class es.upm.emse.enteridea.persistence.entity.User
+DEBUG | 23/Dec/2013 13:45:50,355 | DTOFactory.java:209 |Obtained second value from getter method: test name
+DEBUG | 23/Dec/2013 13:45:50,356 | DTOFactory.java:446 |method name:setOwnerFirstName
+DEBUG | 23/Dec/2013 13:45:50,357 | DTOFactory.java:340 |method to execute: setOwnerFirstName Value test name DTO: IDEA[113, title: this is the tittle, topic: descripcion del topico, description: description, Creation date: null, Modification date: null,  votes: , owner : null null null null, comments : ]  
+DEBUG | 23/Dec/2013 13:45:50,358 | DTOFactory.java:132 |annotation found:@es.upm.emse.enteridea.annotation.dtoannotation.DTOMapping(getValueFrom=ideaOwner, generateListOf=class java.lang.Object, listSetterClass=interface java.util.List, getSecondValueFrom=lastName)
+DEBUG | 23/Dec/2013 13:45:50,360 | DTOFactory.java:196 |mapping other references mapping
+DEBUG | 23/Dec/2013 13:45:50,361 | DTOFactory.java:446 |method name:getIdeaOwner
+DEBUG | 23/Dec/2013 13:45:50,363 | DTOFactory.java:257 |method to execute: getIdeaOwner Entity: IDEA[113, title: this is the tittle, topic: Topic[96, description: descripcion del topico] , Creation date: Mon Dec 23 13:45:50 CET 2013, Modification date: Mon Dec 23 13:45:50 CET 2013,  votes: null, owner : User[184, name: test name, lastname: test lastname, nickname: nickname 1387802750168, password: 1234, email: test@test.com] , comments : null]   Entity class: class es.upm.emse.enteridea.persistence.entity.Idea
+DEBUG | 23/Dec/2013 13:45:50,364 | DTOFactory.java:202 |Obtained first value from getter method: User[184, name: test name, lastname: test lastname, nickname: nickname 1387802750168, password: 1234, email: test@test.com] 
+DEBUG | 23/Dec/2013 13:45:50,365 | DTOFactory.java:446 |method name:getLastName
+DEBUG | 23/Dec/2013 13:45:50,366 | DTOFactory.java:257 |method to execute: getLastName Entity: User[184, name: test name, lastname: test lastname, nickname: nickname 1387802750168, password: 1234, email: test@test.com]  Entity class: class es.upm.emse.enteridea.persistence.entity.User
+DEBUG | 23/Dec/2013 13:45:50,367 | DTOFactory.java:209 |Obtained second value from getter method: test lastname
+DEBUG | 23/Dec/2013 13:45:50,368 | DTOFactory.java:446 |method name:setOwnerLastName
+DEBUG | 23/Dec/2013 13:45:50,369 | DTOFactory.java:340 |method to execute: setOwnerLastName Value test lastname DTO: IDEA[113, title: this is the tittle, topic: descripcion del topico, description: description, Creation date: null, Modification date: null,  votes: , owner : test name null null null, comments : ]  
+DEBUG | 23/Dec/2013 13:45:50,371 | DTOFactory.java:132 |annotation found:@es.upm.emse.enteridea.annotation.dtoannotation.DTOMapping(getValueFrom=ideaOwner, generateListOf=class java.lang.Object, listSetterClass=interface java.util.List, getSecondValueFrom=email)
+DEBUG | 23/Dec/2013 13:45:50,373 | DTOFactory.java:196 |mapping other references mapping
+DEBUG | 23/Dec/2013 13:45:50,374 | DTOFactory.java:446 |method name:getIdeaOwner
+DEBUG | 23/Dec/2013 13:45:50,375 | DTOFactory.java:257 |method to execute: getIdeaOwner Entity: IDEA[113, title: this is the tittle, topic: Topic[96, description: descripcion del topico] , Creation date: Mon Dec 23 13:45:50 CET 2013, Modification date: Mon Dec 23 13:45:50 CET 2013,  votes: null, owner : User[184, name: test name, lastname: test lastname, nickname: nickname 1387802750168, password: 1234, email: test@test.com] , comments : null]   Entity class: class es.upm.emse.enteridea.persistence.entity.Idea
+DEBUG | 23/Dec/2013 13:45:50,376 | DTOFactory.java:202 |Obtained first value from getter method: User[184, name: test name, lastname: test lastname, nickname: nickname 1387802750168, password: 1234, email: test@test.com] 
+DEBUG | 23/Dec/2013 13:45:50,377 | DTOFactory.java:446 |method name:getEmail
+DEBUG | 23/Dec/2013 13:45:50,378 | DTOFactory.java:257 |method to execute: getEmail Entity: User[184, name: test name, lastname: test lastname, nickname: nickname 1387802750168, password: 1234, email: test@test.com]  Entity class: class es.upm.emse.enteridea.persistence.entity.User
+DEBUG | 23/Dec/2013 13:45:50,380 | DTOFactory.java:209 |Obtained second value from getter method: test@test.com
+DEBUG | 23/Dec/2013 13:45:50,395 | DTOFactory.java:446 |method name:setOwnerEmail
+DEBUG | 23/Dec/2013 13:45:50,400 | DTOFactory.java:340 |method to execute: setOwnerEmail Value test@test.com DTO: IDEA[113, title: this is the tittle, topic: descripcion del topico, description: description, Creation date: null, Modification date: null,  votes: , owner : test name test lastname null null, comments : ]  
+DEBUG | 23/Dec/2013 13:45:50,402 | DTOFactory.java:132 |annotation found:@es.upm.emse.enteridea.annotation.dtoannotation.DTOMapping(getValueFrom=ideaOwner, generateListOf=class java.lang.Object, listSetterClass=interface java.util.List, getSecondValueFrom=nickname)
+DEBUG | 23/Dec/2013 13:45:50,405 | DTOFactory.java:196 |mapping other references mapping
+DEBUG | 23/Dec/2013 13:45:50,406 | DTOFactory.java:446 |method name:getIdeaOwner
+DEBUG | 23/Dec/2013 13:45:50,412 | DTOFactory.java:257 |method to execute: getIdeaOwner Entity: IDEA[113, title: this is the tittle, topic: Topic[96, description: descripcion del topico] , Creation date: Mon Dec 23 13:45:50 CET 2013, Modification date: Mon Dec 23 13:45:50 CET 2013,  votes: null, owner : User[184, name: test name, lastname: test lastname, nickname: nickname 1387802750168, password: 1234, email: test@test.com] , comments : null]   Entity class: class es.upm.emse.enteridea.persistence.entity.Idea
+DEBUG | 23/Dec/2013 13:45:50,416 | DTOFactory.java:202 |Obtained first value from getter method: User[184, name: test name, lastname: test lastname, nickname: nickname 1387802750168, password: 1234, email: test@test.com] 
+DEBUG | 23/Dec/2013 13:45:50,418 | DTOFactory.java:446 |method name:getNickname
+DEBUG | 23/Dec/2013 13:45:50,419 | DTOFactory.java:257 |method to execute: getNickname Entity: User[184, name: test name, lastname: test lastname, nickname: nickname 1387802750168, password: 1234, email: test@test.com]  Entity class: class es.upm.emse.enteridea.persistence.entity.User
+DEBUG | 23/Dec/2013 13:45:50,423 | DTOFactory.java:209 |Obtained second value from getter method: nickname 1387802750168
+DEBUG | 23/Dec/2013 13:45:50,424 | DTOFactory.java:446 |method name:setOwnerNickName
+DEBUG | 23/Dec/2013 13:45:50,425 | DTOFactory.java:340 |method to execute: setOwnerNickName Value nickname 1387802750168 DTO: IDEA[113, title: this is the tittle, topic: descripcion del topico, description: description, Creation date: null, Modification date: null,  votes: , owner : test name test lastname test@test.com null, comments : ]  
+DEBUG | 23/Dec/2013 13:45:50,431 | DTOFactory.java:132 |annotation found:@es.upm.emse.enteridea.annotation.dtoannotation.DTOMapping(getValueFrom=votes, generateListOf=class es.upm.emse.enteridea.adapter.dto.VoteDTO, listSetterClass=interface java.util.List, getSecondValueFrom=)
+DEBUG | 23/Dec/2013 13:45:50,433 | DTOFactory.java:137 |mapping list mapping
+DEBUG | 23/Dec/2013 13:45:50,434 | DTOFactory.java:446 |method name:getVotes
+DEBUG | 23/Dec/2013 13:45:50,437 | DTOFactory.java:257 |method to execute: getVotes Entity: IDEA[113, title: this is the tittle, topic: Topic[96, description: descripcion del topico] , Creation date: Mon Dec 23 13:45:50 CET 2013, Modification date: Mon Dec 23 13:45:50 CET 2013,  votes: null, owner : User[184, name: test name, lastname: test lastname, nickname: nickname 1387802750168, password: 1234, email: test@test.com] , comments : null]   Entity class: class es.upm.emse.enteridea.persistence.entity.Idea
+DEBUG | 23/Dec/2013 13:45:50,450 | DTOFactory.java:132 |annotation found:@es.upm.emse.enteridea.annotation.dtoannotation.DTOMapping(getValueFrom=dateToShow, generateListOf=class java.lang.Object, listSetterClass=interface java.util.List, getSecondValueFrom=)
+DEBUG | 23/Dec/2013 13:45:50,454 | DTOFactory.java:182 |mapping 1 on 1  mapping
+DEBUG | 23/Dec/2013 13:45:50,455 | DTOFactory.java:446 |method name:getDateToShow
+DEBUG | 23/Dec/2013 13:45:50,457 | DTOFactory.java:257 |method to execute: getDateToShow Entity: IDEA[113, title: this is the tittle, topic: Topic[96, description: descripcion del topico] , Creation date: Mon Dec 23 13:45:50 CET 2013, Modification date: Mon Dec 23 13:45:50 CET 2013,  votes: null, owner : User[184, name: test name, lastname: test lastname, nickname: nickname 1387802750168, password: 1234, email: test@test.com] , comments : null]   Entity class: class es.upm.emse.enteridea.persistence.entity.Idea
+DEBUG | 23/Dec/2013 13:45:50,471 | DTOFactory.java:186 |Obtained value from getter method: 12/23/13
+DEBUG | 23/Dec/2013 13:45:50,472 | DTOFactory.java:446 |method name:setDateToShow
+DEBUG | 23/Dec/2013 13:45:50,478 | DTOFactory.java:340 |method to execute: setDateToShow Value 12/23/13 DTO: IDEA[113, title: this is the tittle, topic: descripcion del topico, description: description, Creation date: null, Modification date: null,  votes: , owner : test name test lastname test@test.com nickname 1387802750168, comments : ]  
+DEBUG | 23/Dec/2013 13:45:50,480 | DTOFactory.java:132 |annotation found:@es.upm.emse.enteridea.annotation.dtoannotation.DTOMapping(getValueFrom=modDateToShow, generateListOf=class java.lang.Object, listSetterClass=interface java.util.List, getSecondValueFrom=)
+DEBUG | 23/Dec/2013 13:45:50,488 | DTOFactory.java:182 |mapping 1 on 1  mapping
+DEBUG | 23/Dec/2013 13:45:50,493 | DTOFactory.java:446 |method name:getModDateToShow
+DEBUG | 23/Dec/2013 13:45:50,496 | DTOFactory.java:257 |method to execute: getModDateToShow Entity: IDEA[113, title: this is the tittle, topic: Topic[96, description: descripcion del topico] , Creation date: Mon Dec 23 13:45:50 CET 2013, Modification date: Mon Dec 23 13:45:50 CET 2013,  votes: null, owner : User[184, name: test name, lastname: test lastname, nickname: nickname 1387802750168, password: 1234, email: test@test.com] , comments : null]   Entity class: class es.upm.emse.enteridea.persistence.entity.Idea
+DEBUG | 23/Dec/2013 13:45:50,507 | DTOFactory.java:186 |Obtained value from getter method: 12/23/13
+DEBUG | 23/Dec/2013 13:45:50,508 | DTOFactory.java:446 |method name:setModDateToShow
+DEBUG | 23/Dec/2013 13:45:50,511 | DTOFactory.java:340 |method to execute: setModDateToShow Value 12/23/13 DTO: IDEA[113, title: this is the tittle, topic: descripcion del topico, description: description, Creation date: 12/23/13, Modification date: null,  votes: , owner : test name test lastname test@test.com nickname 1387802750168, comments : ]  
+DEBUG | 23/Dec/2013 13:45:50,536 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:50,571 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:50,572 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:50,579 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:50,584 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:50,596 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:50,653 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:50,663 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:50,714 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:50,721 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:50,750 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:50,764 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:50,801 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:50,813 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:50,849 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:50,863 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:50,884 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:50,896 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:50,903 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:50,915 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:50,959 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:50,971 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:50,986 | GenericDAOImp.java:284 |executing update
+ INFO | 23/Dec/2013 13:45:51,021 | GenericDAOImp.java:105 |object Updated
+DEBUG | 23/Dec/2013 13:45:51,098 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:51,154 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:51,161 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:51,188 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:51,194 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:51,212 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:51,213 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:51,221 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:51,252 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 13:45:51,262 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 13:45:51,338 | GenericDAOImp.java:205 |Total records: 1
+DEBUG | 23/Dec/2013 14:00:31,769 | GenericDAOImp.java:289 |executing save
+ERROR | 23/Dec/2013 14:00:32,022 | GenericDAOImp.java:63 |Can not SAVE the object into the database due an error: 
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:129) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:125) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:110) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:136) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.executeAndExtract(IdentityGenerator.java:96) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:58) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2989) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3501) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:393) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:227) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:207) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:191) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:321) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:125) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:206) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:55) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:191) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:49) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:764) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:756) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:752) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at es.upm.emse.enteridea.persistence.dao.imp.GenericDAOImp.executeSaveUpdate(GenericDAOImp.java:290) ~[classes/:?]
+	at es.upm.emse.enteridea.persistence.dao.imp.GenericDAOImp.create(GenericDAOImp.java:60) [classes/:?]
+	at es.upm.emse.enteridea.business.UserManager.createUser(UserManager.java:28) [classes/:?]
+	at es.upm.emse.enteridea.business.UserManager$createUser.call(Unknown Source) [classes/:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) [groovy-all-2.0.5.jar:2.0.5]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108) [groovy-all-2.0.5.jar:2.0.5]
+	at test.es.upm.emse.enteridea.spock.IdeaTest.createTestUser(IdeaTest.groovy:441) [test-classes/:?]
+	at test.es.upm.emse.enteridea.spock.IdeaTest.$spock_feature_0_0(IdeaTest.groovy:79) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeFeatureMethod(BaseSpecRunner.java:285) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:256) [spock-core-0.7-groovy-2.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:223) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:214) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:205) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:199) [spock-core-0.7-groovy-2.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:175) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:152) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:112) [spock-core-0.7-groovy-2.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:91) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:82) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197) [.cp/:?]
+Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "userenteridea_pkey"
+  Detail: Key (user_id)=(1) already exists.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2102) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1835) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:500) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:334) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:133) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	... 75 more
+ERROR | 23/Dec/2013 14:00:32,044 | UserManager.java:30 |Failed creating user
+es.upm.emse.enteridea.persistence.exception.DaoOperationException: Can not SAVE the object into the database due an error: 
+	at es.upm.emse.enteridea.persistence.dao.imp.GenericDAOImp.create(GenericDAOImp.java:64) ~[classes/:?]
+	at es.upm.emse.enteridea.business.UserManager.createUser(UserManager.java:28) [classes/:?]
+	at es.upm.emse.enteridea.business.UserManager$createUser.call(Unknown Source) [classes/:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) [groovy-all-2.0.5.jar:2.0.5]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108) [groovy-all-2.0.5.jar:2.0.5]
+	at test.es.upm.emse.enteridea.spock.IdeaTest.createTestUser(IdeaTest.groovy:441) [test-classes/:?]
+	at test.es.upm.emse.enteridea.spock.IdeaTest.$spock_feature_0_0(IdeaTest.groovy:79) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeFeatureMethod(BaseSpecRunner.java:285) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:256) [spock-core-0.7-groovy-2.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:223) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:214) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:205) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:199) [spock-core-0.7-groovy-2.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:175) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:152) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:112) [spock-core-0.7-groovy-2.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:91) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:82) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197) [.cp/:?]
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:129) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:125) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:110) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:136) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.executeAndExtract(IdentityGenerator.java:96) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:58) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2989) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3501) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:393) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:227) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:207) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:191) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:321) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:125) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:206) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:55) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:191) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:49) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:764) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:756) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:752) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at es.upm.emse.enteridea.persistence.dao.imp.GenericDAOImp.executeSaveUpdate(GenericDAOImp.java:290) ~[classes/:?]
+	at es.upm.emse.enteridea.persistence.dao.imp.GenericDAOImp.create(GenericDAOImp.java:60) ~[classes/:?]
+	... 52 more
+Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "userenteridea_pkey"
+  Detail: Key (user_id)=(1) already exists.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2102) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1835) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:500) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:334) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:133) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.executeAndExtract(IdentityGenerator.java:96) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:58) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2989) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3501) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:393) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:227) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:207) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:191) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:321) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:125) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:206) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:55) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:191) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:49) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:764) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:756) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:752) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at es.upm.emse.enteridea.persistence.dao.imp.GenericDAOImp.executeSaveUpdate(GenericDAOImp.java:290) ~[classes/:?]
+	at es.upm.emse.enteridea.persistence.dao.imp.GenericDAOImp.create(GenericDAOImp.java:60) ~[classes/:?]
+	... 52 more
+ERROR | 23/Dec/2013 14:00:32,102 | IdeaManager.java:136 |The Id is not a number.
+java.lang.NumberFormatException: For input string: "null"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:1.7.0_45]
+	at java.lang.Long.parseLong(Long.java:441) ~[?:1.7.0_45]
+	at java.lang.Long.<init>(Long.java:702) ~[?:1.7.0_45]
+	at es.upm.emse.enteridea.business.IdeaManager.getIdea(IdeaManager.java:133) [classes/:?]
+	at es.upm.emse.enteridea.business.IdeaManager.deleteIdea(IdeaManager.java:239) [classes/:?]
+	at es.upm.emse.enteridea.business.IdeaManager$deleteIdea.call(Unknown Source) [classes/:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) [groovy-all-2.0.5.jar:2.0.5]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108) [groovy-all-2.0.5.jar:2.0.5]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120) [groovy-all-2.0.5.jar:2.0.5]
+	at test.es.upm.emse.enteridea.spock.IdeaTest.cleanupCreateIdea(IdeaTest.groovy:402) [test-classes/:?]
+	at test.es.upm.emse.enteridea.spock.IdeaTest.this$5$cleanupCreateIdea(IdeaTest.groovy) [test-classes/:?]
+	at test.es.upm.emse.enteridea.spock.IdeaTest$this$5$cleanupCreateIdea.callCurrent(Unknown Source) [test-classes/:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49) [groovy-all-2.0.5.jar:2.0.5]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133) [groovy-all-2.0.5.jar:2.0.5]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149) [groovy-all-2.0.5.jar:2.0.5]
+	at test.es.upm.emse.enteridea.spock.IdeaTest.$spock_feature_0_0(IdeaTest.groovy:106) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeFeatureMethod(BaseSpecRunner.java:285) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:256) [spock-core-0.7-groovy-2.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:223) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:214) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:205) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:199) [spock-core-0.7-groovy-2.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:175) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:152) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:112) [spock-core-0.7-groovy-2.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:91) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:82) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197) [.cp/:?]
+DEBUG | 23/Dec/2013 14:00:33,226 | GenericDAOImp.java:289 |executing save
+ERROR | 23/Dec/2013 14:00:33,234 | GenericDAOImp.java:63 |Can not SAVE the object into the database due an error: 
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:129) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:125) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:110) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:136) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.executeAndExtract(IdentityGenerator.java:96) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:58) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2989) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3501) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:393) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:227) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:207) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:191) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:321) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:125) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:206) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:55) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:191) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:49) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:764) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:756) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:752) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at es.upm.emse.enteridea.persistence.dao.imp.GenericDAOImp.executeSaveUpdate(GenericDAOImp.java:290) ~[classes/:?]
+	at es.upm.emse.enteridea.persistence.dao.imp.GenericDAOImp.create(GenericDAOImp.java:60) [classes/:?]
+	at es.upm.emse.enteridea.business.TopicManager.createTopic(TopicManager.java:25) [classes/:?]
+	at es.upm.emse.enteridea.business.TopicManager$createTopic.call(Unknown Source) [classes/:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) [groovy-all-2.0.5.jar:2.0.5]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108) [groovy-all-2.0.5.jar:2.0.5]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) [groovy-all-2.0.5.jar:2.0.5]
+	at test.es.upm.emse.enteridea.spock.IdeaTest.createTestTopic(IdeaTest.groovy:431) [test-classes/:?]
+	at test.es.upm.emse.enteridea.spock.IdeaTest.$spock_feature_0_1(IdeaTest.groovy:113) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeFeatureMethod(BaseSpecRunner.java:285) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:256) [spock-core-0.7-groovy-2.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:223) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:214) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:205) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:199) [spock-core-0.7-groovy-2.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:175) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:152) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:112) [spock-core-0.7-groovy-2.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:91) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:82) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197) [.cp/:?]
+Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "topic_pkey"
+  Detail: Key (topic_id)=(1) already exists.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2102) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1835) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:500) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:334) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:133) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	... 76 more
+ERROR | 23/Dec/2013 14:00:33,242 | TopicManager.java:27 |Failed creating topic
+es.upm.emse.enteridea.persistence.exception.DaoOperationException: Can not SAVE the object into the database due an error: 
+	at es.upm.emse.enteridea.persistence.dao.imp.GenericDAOImp.create(GenericDAOImp.java:64) ~[classes/:?]
+	at es.upm.emse.enteridea.business.TopicManager.createTopic(TopicManager.java:25) [classes/:?]
+	at es.upm.emse.enteridea.business.TopicManager$createTopic.call(Unknown Source) [classes/:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) [groovy-all-2.0.5.jar:2.0.5]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108) [groovy-all-2.0.5.jar:2.0.5]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) [groovy-all-2.0.5.jar:2.0.5]
+	at test.es.upm.emse.enteridea.spock.IdeaTest.createTestTopic(IdeaTest.groovy:431) [test-classes/:?]
+	at test.es.upm.emse.enteridea.spock.IdeaTest.$spock_feature_0_1(IdeaTest.groovy:113) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeFeatureMethod(BaseSpecRunner.java:285) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:256) [spock-core-0.7-groovy-2.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:223) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:214) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:205) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:199) [spock-core-0.7-groovy-2.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:175) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:152) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:112) [spock-core-0.7-groovy-2.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:91) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:82) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197) [.cp/:?]
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:129) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:125) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:110) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:136) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.executeAndExtract(IdentityGenerator.java:96) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:58) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2989) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3501) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:393) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:227) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:207) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:191) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:321) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:125) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:206) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:55) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:191) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:49) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:764) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:756) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:752) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at es.upm.emse.enteridea.persistence.dao.imp.GenericDAOImp.executeSaveUpdate(GenericDAOImp.java:290) ~[classes/:?]
+	at es.upm.emse.enteridea.persistence.dao.imp.GenericDAOImp.create(GenericDAOImp.java:60) ~[classes/:?]
+	... 53 more
+Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "topic_pkey"
+  Detail: Key (topic_id)=(1) already exists.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2102) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1835) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:500) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:334) ~[postgresql-9.1-901.jdbc4.jar:?]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:133) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.executeAndExtract(IdentityGenerator.java:96) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:58) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2989) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3501) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:393) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:227) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:207) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:191) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:321) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:125) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:206) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:55) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:191) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:49) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:764) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:756) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:752) ~[hibernate-core-4.2.7.SP1.jar:4.2.7.SP1]
+	at es.upm.emse.enteridea.persistence.dao.imp.GenericDAOImp.executeSaveUpdate(GenericDAOImp.java:290) ~[classes/:?]
+	at es.upm.emse.enteridea.persistence.dao.imp.GenericDAOImp.create(GenericDAOImp.java:60) ~[classes/:?]
+	... 53 more
+ERROR | 23/Dec/2013 14:00:33,259 | IdeaManager.java:136 |The Id is not a number.
+java.lang.NumberFormatException: For input string: "null"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:1.7.0_45]
+	at java.lang.Long.parseLong(Long.java:441) ~[?:1.7.0_45]
+	at java.lang.Long.<init>(Long.java:702) ~[?:1.7.0_45]
+	at es.upm.emse.enteridea.business.IdeaManager.getIdea(IdeaManager.java:133) [classes/:?]
+	at es.upm.emse.enteridea.business.IdeaManager.deleteIdea(IdeaManager.java:239) [classes/:?]
+	at es.upm.emse.enteridea.business.IdeaManager$deleteIdea.call(Unknown Source) [classes/:?]
+	at test.es.upm.emse.enteridea.spock.IdeaTest.cleanupCreateIdea(IdeaTest.groovy:402) [test-classes/:?]
+	at test.es.upm.emse.enteridea.spock.IdeaTest.this$5$cleanupCreateIdea(IdeaTest.groovy) [test-classes/:?]
+	at test.es.upm.emse.enteridea.spock.IdeaTest$this$5$cleanupCreateIdea.callCurrent(Unknown Source) [test-classes/:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49) [groovy-all-2.0.5.jar:2.0.5]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133) [groovy-all-2.0.5.jar:2.0.5]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149) [groovy-all-2.0.5.jar:2.0.5]
+	at test.es.upm.emse.enteridea.spock.IdeaTest.$spock_feature_0_1(IdeaTest.groovy:134) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeFeatureMethod(BaseSpecRunner.java:285) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:256) [spock-core-0.7-groovy-2.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:223) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:214) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:205) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:199) [spock-core-0.7-groovy-2.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:175) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:152) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:112) [spock-core-0.7-groovy-2.0.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_45]
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:330) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:311) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:91) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:82) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63) [spock-core-0.7-groovy-2.0.jar:?]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197) [.cp/:?]
+DEBUG | 23/Dec/2013 14:00:33,286 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:33,385 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:33,436 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:33,451 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:33,728 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:33,759 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:33,828 | IdeaManager.java:90 |editing user:___mctesty___1387803620439_EDIT_
+DEBUG | 23/Dec/2013 14:00:33,844 | GenericDAOImp.java:284 |executing update
+ INFO | 23/Dec/2013 14:00:33,909 | GenericDAOImp.java:105 |object Updated
+DEBUG | 23/Dec/2013 14:00:33,949 | IdeaManager.java:240 |user trying to delete:___mctesty___1387803620439_EDIT_
+ INFO | 23/Dec/2013 14:00:34,026 | IdeaManager.java:255 |idea deleted:1
+DEBUG | 23/Dec/2013 14:00:34,135 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:34,150 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:34,155 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:34,167 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:34,183 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:34,209 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:34,256 | IdeaManager.java:240 |user trying to delete:___mctesty___1387803620439_DELETE_
+ INFO | 23/Dec/2013 14:00:34,292 | IdeaManager.java:255 |idea deleted:2
+DEBUG | 23/Dec/2013 14:00:34,383 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:34,392 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:34,403 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:34,417 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:34,423 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:34,434 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:34,461 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:34,475 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:34,536 | IdeaManager.java:240 |user trying to delete:___mctesty___1387803620439_DELETE_UNAUTHORIZED_
+ERROR | 23/Dec/2013 14:00:34,547 | IdeaManager.java:267 |The user that is trying to edit is not the owner of the object or is not a moderator
+DEBUG | 23/Dec/2013 14:00:34,599 | IdeaManager.java:240 |user trying to delete:___mctesty___1387803620439_DELETE_
+ INFO | 23/Dec/2013 14:00:34,625 | IdeaManager.java:255 |idea deleted:3
+DEBUG | 23/Dec/2013 14:00:34,738 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:34,775 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:34,779 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:34,792 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:34,802 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:34,816 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:34,827 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:34,841 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:34,901 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:34,916 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:35,020 | IdeaManager.java:240 |user trying to delete:___mctesty___1387803620439_ADD_
+ INFO | 23/Dec/2013 14:00:35,050 | IdeaManager.java:255 |idea deleted:4
+DEBUG | 23/Dec/2013 14:00:35,109 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:35,125 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:35,130 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:35,141 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:35,152 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:35,166 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:35,189 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:35,208 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:35,247 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:35,258 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:35,326 | IdeaManager.java:240 |user trying to delete:___mctesty___1387803620439_GET_
+ INFO | 23/Dec/2013 14:00:35,366 | IdeaManager.java:255 |idea deleted:5
+DEBUG | 23/Dec/2013 14:00:35,423 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:35,433 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:35,437 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:35,449 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:35,462 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:35,474 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:35,513 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:35,524 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:35,599 | IdeaManager.java:240 |user trying to delete:___mctesty___1387803620439_COMMENT_DELETE_
+ INFO | 23/Dec/2013 14:00:35,641 | IdeaManager.java:255 |idea deleted:6
+DEBUG | 23/Dec/2013 14:00:35,706 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:35,716 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:35,723 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:35,732 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:35,747 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:35,815 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:35,836 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:35,849 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:35,865 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:35,882 | GenericDAOImp.java:61 |object saved
+ERROR | 23/Dec/2013 14:00:35,904 | IdeaManager.java:347 |The user that is trying to edit is not the owner of the object or is not a moderator
+DEBUG | 23/Dec/2013 14:00:35,940 | IdeaManager.java:240 |user trying to delete:___mctesty___1387803620439_AUTHOR_1387803635695
+ INFO | 23/Dec/2013 14:00:35,991 | IdeaManager.java:255 |idea deleted:7
+DEBUG | 23/Dec/2013 14:00:49,273 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:49,567 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:50,130 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:50,150 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:50,325 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:50,350 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:50,441 | IdeaManager.java:240 |user trying to delete:___mctesty___1387803643352_CREATE_
+ INFO | 23/Dec/2013 14:00:50,525 | IdeaManager.java:255 |idea deleted:8
+DEBUG | 23/Dec/2013 14:00:50,832 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:50,867 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:50,873 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:50,882 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:50,911 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:50,924 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:50,990 | IdeaManager.java:240 |user trying to delete:___mctesty___1387803643352_LIST_
+ INFO | 23/Dec/2013 14:00:51,049 | IdeaManager.java:255 |idea deleted:9
+DEBUG | 23/Dec/2013 14:00:51,132 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:51,149 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:51,157 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:51,174 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:51,193 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:51,207 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:51,240 | IdeaManager.java:90 |editing user:___mctesty___1387803643352_EDIT_
+DEBUG | 23/Dec/2013 14:00:51,247 | GenericDAOImp.java:284 |executing update
+ INFO | 23/Dec/2013 14:00:51,265 | GenericDAOImp.java:105 |object Updated
+DEBUG | 23/Dec/2013 14:00:51,282 | IdeaManager.java:240 |user trying to delete:___mctesty___1387803643352_EDIT_
+ INFO | 23/Dec/2013 14:00:51,326 | IdeaManager.java:255 |idea deleted:10
+DEBUG | 23/Dec/2013 14:00:51,458 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:51,475 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:51,481 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:51,499 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:51,527 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:51,557 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:51,639 | IdeaManager.java:240 |user trying to delete:___mctesty___1387803643352_DELETE_
+ INFO | 23/Dec/2013 14:00:51,715 | IdeaManager.java:255 |idea deleted:11
+DEBUG | 23/Dec/2013 14:00:51,867 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:51,891 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:51,895 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:51,929 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:51,954 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:51,990 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:52,041 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:52,073 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:52,206 | IdeaManager.java:240 |user trying to delete:___mctesty___1387803643352_DELETE_UNAUTHORIZED_
+ERROR | 23/Dec/2013 14:00:52,216 | IdeaManager.java:267 |The user that is trying to edit is not the owner of the object or is not a moderator
+DEBUG | 23/Dec/2013 14:00:52,332 | IdeaManager.java:240 |user trying to delete:___mctesty___1387803643352_DELETE_
+ INFO | 23/Dec/2013 14:00:52,448 | IdeaManager.java:255 |idea deleted:12
+DEBUG | 23/Dec/2013 14:00:52,662 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:52,694 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:52,704 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:52,739 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:52,762 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:52,798 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:52,839 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:52,874 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:53,008 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:53,039 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:53,198 | IdeaManager.java:240 |user trying to delete:___mctesty___1387803643352_ADD_
+ INFO | 23/Dec/2013 14:00:53,255 | IdeaManager.java:255 |idea deleted:13
+DEBUG | 23/Dec/2013 14:00:53,367 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:53,388 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:53,392 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:53,414 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:53,446 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:53,482 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:53,541 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:53,605 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:53,696 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:53,721 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:53,812 | IdeaManager.java:240 |user trying to delete:___mctesty___1387803643352_GET_
+ INFO | 23/Dec/2013 14:00:53,863 | IdeaManager.java:255 |idea deleted:14
+DEBUG | 23/Dec/2013 14:00:53,959 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:53,971 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:53,981 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:54,004 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:54,052 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:54,071 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:54,161 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:54,187 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:54,315 | IdeaManager.java:240 |user trying to delete:___mctesty___1387803643352_COMMENT_DELETE_
+ INFO | 23/Dec/2013 14:00:54,346 | IdeaManager.java:255 |idea deleted:15
+DEBUG | 23/Dec/2013 14:00:54,409 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:54,420 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:54,430 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:54,454 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:54,479 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:54,504 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:54,523 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:54,540 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:00:54,563 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:00:54,571 | GenericDAOImp.java:61 |object saved
+ERROR | 23/Dec/2013 14:00:54,590 | IdeaManager.java:347 |The user that is trying to edit is not the owner of the object or is not a moderator
+DEBUG | 23/Dec/2013 14:00:54,631 | IdeaManager.java:240 |user trying to delete:___mctesty___1387803643352_AUTHOR_1387803654392
+ INFO | 23/Dec/2013 14:00:54,678 | IdeaManager.java:255 |idea deleted:16
+DEBUG | 23/Dec/2013 14:01:40,817 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:01:41,109 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:01:41,683 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:01:41,693 | GenericDAOImp.java:61 |object saved
+DEBUG | 23/Dec/2013 14:01:41,754 | GenericDAOImp.java:289 |executing save
+ INFO | 23/Dec/2013 14:01:41,760 | GenericDAOImp.java:61 |object saved
+ERROR | 23/Dec/2013 14:01:41,780 | UserManager.java:71 |Failed retrieving user because the result from the DB is null or have more than one result (have to be only one)[]
+DEBUG | 30/Dec/2013 09:16:35,627 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:16:35,980 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:16:36,003 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:16:36,019 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:16:36,021 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:16:36,061 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:16:36,676 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:16:36,703 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:16:36,857 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:16:36,869 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:16:36,979 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:16:37,043 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:16:37,171 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:16:37,226 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:16:37,288 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:16:37,301 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:16:37,311 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:16:37,318 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:16:37,354 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:16:37,359 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:16:37,367 | GenericDAOImp.java:284 |executing update
+ INFO | 30/Dec/2013 09:16:37,387 | GenericDAOImp.java:105 |object Updated
+DEBUG | 30/Dec/2013 09:16:37,429 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:16:37,443 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:16:37,474 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:16:37,493 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:16:37,506 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:16:37,543 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:16:37,544 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:16:37,551 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:16:37,552 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:16:37,559 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:16:37,591 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:16:37,601 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:16:37,740 | GenericDAOImp.java:205 |Total records: 0
+DEBUG | 30/Dec/2013 09:57:18,946 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:57:19,365 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:57:19,381 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:57:19,408 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:57:19,410 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:57:19,450 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:57:20,113 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:57:20,133 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:57:20,288 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:57:20,308 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:57:20,433 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:57:20,524 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:57:20,563 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:57:20,582 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:57:20,615 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:57:20,632 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:57:20,645 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:57:20,666 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:57:20,723 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:57:20,740 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:57:20,752 | GenericDAOImp.java:284 |executing update
+ INFO | 30/Dec/2013 09:57:20,790 | GenericDAOImp.java:105 |object Updated
+DEBUG | 30/Dec/2013 09:57:20,833 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:57:20,840 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:57:20,876 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:57:20,883 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:57:20,899 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:57:20,915 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:57:20,917 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:57:20,932 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:57:20,933 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:57:20,949 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:57:20,991 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:57:21,007 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:57:21,139 | GenericDAOImp.java:205 |Total records: 0
+DEBUG | 30/Dec/2013 09:58:40,503 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:58:40,832 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:58:40,834 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:58:40,842 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:58:40,843 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:58:40,858 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:58:41,344 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:58:41,358 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:58:41,466 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:58:41,475 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:58:41,672 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:58:41,699 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:58:41,722 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:58:41,732 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:58:41,774 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:58:41,791 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:58:41,803 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:58:41,816 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:58:41,862 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:58:41,883 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:58:41,895 | GenericDAOImp.java:284 |executing update
+ INFO | 30/Dec/2013 09:58:41,916 | GenericDAOImp.java:105 |object Updated
+DEBUG | 30/Dec/2013 09:58:41,938 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:58:41,949 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:58:41,997 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:58:42,009 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:58:42,025 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:58:42,041 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:58:42,042 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:58:42,058 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:58:42,060 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:58:42,074 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:58:42,125 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 09:58:42,132 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 09:58:42,204 | GenericDAOImp.java:205 |Total records: 0
+DEBUG | 30/Dec/2013 10:00:18,970 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:19,275 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:19,277 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:19,284 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:19,285 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:19,300 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:19,764 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:19,775 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:19,884 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:19,900 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:20,038 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:20,049 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:20,072 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:20,083 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:20,125 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:20,141 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:20,152 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:20,174 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:20,293 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:20,307 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:20,316 | GenericDAOImp.java:284 |executing update
+ INFO | 30/Dec/2013 10:00:20,341 | GenericDAOImp.java:105 |object Updated
+DEBUG | 30/Dec/2013 10:00:20,365 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:20,374 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:20,412 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:20,424 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:20,438 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:20,449 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:20,450 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:20,466 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:20,467 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:20,482 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:20,534 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:20,541 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:20,612 | GenericDAOImp.java:205 |Total records: 0
+DEBUG | 30/Dec/2013 10:00:29,947 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:30,305 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:30,306 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:30,314 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:30,315 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:30,331 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:30,805 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:30,813 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:30,932 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:30,947 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:31,086 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:31,147 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:31,210 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:31,238 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:31,269 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:31,288 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:31,297 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:31,305 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:31,348 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:31,355 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:31,362 | GenericDAOImp.java:284 |executing update
+ INFO | 30/Dec/2013 10:00:31,405 | GenericDAOImp.java:105 |object Updated
+DEBUG | 30/Dec/2013 10:00:31,439 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:31,455 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:31,497 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:31,513 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:31,526 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:31,538 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:31,539 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:31,546 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:31,547 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:31,554 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:31,602 | GenericDAOImp.java:289 |executing save
+ INFO | 30/Dec/2013 10:00:31,621 | GenericDAOImp.java:61 |object saved
+DEBUG | 30/Dec/2013 10:00:31,737 | GenericDAOImp.java:205 |Total records: 0
