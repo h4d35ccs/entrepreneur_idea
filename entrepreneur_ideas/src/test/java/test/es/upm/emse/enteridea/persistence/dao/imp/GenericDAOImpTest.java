@@ -1,5 +1,7 @@
 package test.es.upm.emse.enteridea.persistence.dao.imp;
 
+import static org.junit.Assert.*;
+
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -10,7 +12,9 @@ import junit.framework.TestCase;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.junit.After;
 import org.junit.AfterClass;
+import org.junit.Before;
 import org.junit.Test;
 
 import es.upm.emse.enteridea.business.exception.BusinessException;
@@ -36,7 +40,7 @@ import es.upm.emse.enteridea.persistence.exception.DaoOperationException;
  * 
  * @version $Revision$
  */
-public class GenericDAOImpTest extends TestCase {
+public class GenericDAOImpTest  {
 
 	private GenericDAO<Idea, Long> daoIdea;
 	private GenericDAO<User, Long> daoUser;
@@ -50,9 +54,9 @@ public class GenericDAOImpTest extends TestCase {
 	 * @param name
 	 *            the test name
 	 */
-	public GenericDAOImpTest(String name) {
-		super(name);
-	}
+//	public GenericDAOImpTest(String name) {
+////		super(name);
+//	}
 
 	/**
 	 * Perform pre-test initialization
@@ -61,8 +65,9 @@ public class GenericDAOImpTest extends TestCase {
 	 * 
 	 * @see TestCase#setUp()
 	 */
-	protected void setUp() throws Exception {
-		super.setUp();
+	@Before
+	public void setUp() throws Exception {
+//		super.setUp();
 		this.daoIdea = new GenericDAOImp<Idea, Long>(Idea.class);
 		this.daoUser = new GenericDAOImp<User, Long>(User.class);
 		this.daoTopic = new GenericDAOImp<Topic, Long>(Topic.class);
@@ -78,8 +83,9 @@ public class GenericDAOImpTest extends TestCase {
 	 * 
 	 * @see TestCase#tearDown()
 	 */
-	protected void tearDown() throws Exception {
-		super.tearDown();
+	@After
+	public void tearDown() throws Exception {
+//		super.tearDown();
 		this.daoIdea = null;
 		this.daoTopic = null;
 		this.daoUser = null;
